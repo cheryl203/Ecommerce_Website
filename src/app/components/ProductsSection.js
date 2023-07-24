@@ -81,11 +81,13 @@ const ProductsSection = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center mt-6">
-        <button className="bg-blue-500 text-white rounded px-4 py-2">View All</button>
-      </div>
+      
     </div>
   );
 };
 
 export default ProductsSection;
+
+
+
+

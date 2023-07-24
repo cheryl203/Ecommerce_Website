@@ -25,3 +25,42 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+ 
+ .buy-now-button {
+   background-color: #b56e5f;
+   color: white;
+   border: none;
+   padding: 8px 16px;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-top: 8px;
+ }
+
+ .buy-now-button:hover {
+   background-color: #825c5c;
+ }
+
+ 
+ .cart-icon-container {
+   position: relative;
+ }
+
+ .cart-icon {
+   font-size: 24px;
+   cursor: pointer;
+ }
+
+ .cart-count {
+   position: absolute;
+   top: -8px;
+   right: -8px;
+   background-color: #d46969;
+   color: white;
+   border-radius: 50%;
+   width: 24px;
+   height: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 12px;
+ }
